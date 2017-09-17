@@ -17,4 +17,4 @@ EXPOSE 80
 ENV PYTHONUNBUFFERED 1
 
 # Run app when the container launches
-CMD python /code/manage.py runserver --port=80
+CMD python /code/manage.py runserver 80
